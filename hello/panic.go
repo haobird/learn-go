@@ -14,5 +14,6 @@ func handlePanic() {
 func WillPanic() {
 	defer handlePanic()
 
-	panic("Woah")
+	// panic("Woah")
+	fmt.Println("dd")
 }

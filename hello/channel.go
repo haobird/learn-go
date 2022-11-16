@@ -1,6 +1,9 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"time"
+)
 
 func speak(arg string, ch chan<- string) {
 	ch <- arg // Send Only
@@ -13,9 +16,13 @@ func main() {
 	// 	data3, ok := <-ch
 	// 	fmt.Println(data3, ok)
 	// }()
+	fmt.Println(len(ch))
 
 	go speak("Hello World", ch)
 	go speak("Hi again", ch)
+
+	time.Sleep(1 * time.Second)
+	fmt.Println(len(ch))
 
 	data1 := <-ch
 	fmt.Println(data1)
