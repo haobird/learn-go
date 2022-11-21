@@ -7,6 +7,16 @@ type User struct {
 }
 
 func main() {
+	var drivers map[string]User
+	fmt.Println(drivers, drivers == nil)
+	fmt.Printf("%v\n", drivers)
+	drivers = make(map[string]User)
+	fmt.Println(drivers, drivers == nil)
+	fmt.Printf("%v\n", drivers)
+	drivers1 := new(map[string]User)
+	fmt.Println(drivers1, drivers1 == nil)
+	fmt.Printf("%v\n", drivers1)
+
 	var m = map[string]User{
 		"a": {"Peter"},
 		"b": {"Seth"},

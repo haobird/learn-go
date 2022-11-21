@@ -12,8 +12,6 @@ type MyType struct {
 
 func (MyType) Method() {}
 
-type User struct{}
-
 func (User) Method() {}
 
 func main() {
