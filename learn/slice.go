@@ -3,16 +3,22 @@ package main
 import "fmt"
 
 func main() {
-	//
-	var arr []string
+	str := "C7C00600FF0403110727414B"
+	fmt.Println(len(str))
+	n := 18
+	fmt.Println(str[n:n+5] + "/" + str[n+5:])
+	// var arr []string
 	// var s []string
-	var s = make([]string, 0, 0)
 
-	fmt.Println(s)
-	fmt.Println(s == nil)
+	// fmt.Println(s)
+	// fmt.Println(s == nil)
+	// s = append(s, "a")
+	// fmt.Println(s)
 
-	for i := 0; i < 10; i++ {
-		arr = append(arr, fmt.Sprintf("%d", i))
-	}
-	fmt.Println(arr)
+	// var arr = make([]string, 0, 0)
+	// fmt.Println(arr)
+	// for i := 0; i < 10; i++ {
+	// 	arr = append(arr, fmt.Sprintf("%d", i))
+	// }
+	// fmt.Println(arr)
 }

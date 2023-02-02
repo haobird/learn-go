@@ -1,7 +1,9 @@
 go 1.18
 
 use (
-	./advance
+	./third
 	./hello
 	./world
+	./gokit
+	./example
 )

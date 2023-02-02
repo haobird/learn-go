@@ -1,4 +1,4 @@
-module golang.org/x/advance
+module golang.org/x/third
 
 go 1.18
 
