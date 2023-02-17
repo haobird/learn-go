@@ -6,4 +6,5 @@ use (
 	./world
 	./gokit
 	./example
+	./simplethrift
 )

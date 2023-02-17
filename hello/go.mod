@@ -18,6 +18,7 @@ require (
 	github.com/spf13/pflag v1.0.5 // indirect
 	github.com/spf13/viper v1.13.0 // indirect
 	github.com/subosito/gotenv v1.4.1 // indirect
+	github.com/thoas/go-funk v0.9.3 // indirect
 	golang.org/x/example v0.0.0-20220412213650-2e68773dfca0 // indirect
 	golang.org/x/sys v0.0.0-20220520151302-bc2c85ada10a // indirect
 	golang.org/x/text v0.3.7 // indirect
